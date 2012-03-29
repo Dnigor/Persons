@@ -1,0 +1,5 @@
+E:\softserve\services\AppServer\AppServer\bin\AppServer.dll
+E:\softserve\services\AppServer\AppServer\bin\AppServer.pdb
+E:\softserve\services\AppServer\AppServer\obj\Debug\ResolveAssemblyReference.cache
+E:\softserve\services\AppServer\AppServer\obj\Debug\AppServer.dll
+E:\softserve\services\AppServer\AppServer\obj\Debug\AppServer.pdb

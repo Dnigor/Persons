@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PersonsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="PersonsModelStoreContainer">
+    <EntitySet Name="persons" EntityType="PersonsModel.Store.persons" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="persons">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="FName" Type="nchar" MaxLength="20" />
+    <Property Name="LName" Type="nchar" MaxLength="20" />
+    <Property Name="DateOfBirth" Type="nchar" MaxLength="10" />
+    <Property Name="Photo" Type="image" />
+    <Property Name="PhotoPath" Type="nchar" MaxLength="100" />
+    <Property Name="Text" Type="varchar(max)" />
+    <Property Name="File" Type="varbinary(max)" />
+  </EntityType>
+</Schema>

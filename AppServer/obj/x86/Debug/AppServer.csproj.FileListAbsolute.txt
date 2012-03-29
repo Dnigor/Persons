@@ -1,0 +1,16 @@
+E:\softserve\services\Persons\AppServer\AppServer\bin\Debug\AppServer.exe.config
+E:\softserve\Services\Persons\AppServer\AppServer\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\softserve\Services\Persons\AppServer\AppServer\bin\Debug\Persons.mdf
+E:\softserve\Services\Persons\AppServer\AppServer\bin\Debug\Persons_log.ldf
+E:\softserve\Services\Persons\AppServer\AppServer\bin\Debug\AppServer.exe
+E:\softserve\Services\Persons\AppServer\AppServer\bin\Debug\AppServer.pdb
+E:\softserve\Services\Persons\AppServer\AppServer\obj\x86\Debug\AppServer.exe
+E:\softserve\Services\Persons\AppServer\AppServer\obj\x86\Debug\AppServer.pdb
+E:\softserve\Services\Persons\AppServer\bin\Debug\AppServer.exe.config
+E:\softserve\Services\Persons\AppServer\obj\x86\Debug\AppServer.exe
+E:\softserve\Services\Persons\AppServer\obj\x86\Debug\AppServer.pdb
+E:\softserve\Services\Persons\AppServer\bin\Debug\Persons.mdf
+E:\softserve\Services\Persons\AppServer\bin\Debug\Persons_log.ldf
+E:\softserve\Services\Persons\AppServer\bin\Debug\AppServer.exe
+E:\softserve\Services\Persons\AppServer\bin\Debug\AppServer.pdb
+E:\softserve\Services\Persons\AppServer\obj\x86\Debug\ResolveAssemblyReference.cache

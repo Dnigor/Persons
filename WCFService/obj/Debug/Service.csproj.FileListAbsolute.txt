@@ -1,0 +1,15 @@
+E:\softserve\Services\AppServer\AppServer\bin\AppServer.dll
+E:\softserve\Services\AppServer\AppServer\bin\AppServer.pdb
+E:\softserve\Services\AppServer\AppServer\obj\Debug\ResolveAssemblyReference.cache
+E:\softserve\Services\AppServer\AppServer\obj\Debug\AppServer.dll
+E:\softserve\Services\AppServer\AppServer\obj\Debug\AppServer.pdb
+E:\softserve\Services\Service\Service\bin\AppServer.dll
+E:\softserve\Services\Service\Service\bin\AppServer.pdb
+E:\softserve\Services\Service\Service\obj\Debug\ResolveAssemblyReference.cache
+E:\softserve\Services\Service\Service\obj\Debug\AppServer.dll
+E:\softserve\Services\Service\Service\obj\Debug\AppServer.pdb
+E:\softserve\Services\WCFService\WCFService\bin\AppServer.dll
+E:\softserve\Services\WCFService\WCFService\bin\AppServer.pdb
+E:\softserve\Services\WCFService\WCFService\obj\Debug\ResolveAssemblyReference.cache
+E:\softserve\Services\WCFService\WCFService\obj\Debug\AppServer.dll
+E:\softserve\Services\WCFService\WCFService\obj\Debug\AppServer.pdb

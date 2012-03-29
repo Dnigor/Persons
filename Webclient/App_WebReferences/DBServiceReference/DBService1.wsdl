@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="WCFService" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="WCFService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="WCFService/Imports">
+      <xsd:import schemaLocation="http://localhost:12417/DBService.svc?xsd=xsd0" namespace="WCFService" />
+      <xsd:import schemaLocation="http://localhost:12417/DBService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDBService_GetRecords_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRecords" />
+  </wsdl:message>
+  <wsdl:message name="IDBService_GetRecords_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRecordsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDBService_AddPhoto_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPhoto" />
+  </wsdl:message>
+  <wsdl:message name="IDBService_AddPhoto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPhotoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDBService_SaveChanges_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveChanges" />
+  </wsdl:message>
+  <wsdl:portType name="IDBService">
+    <wsdl:operation name="GetRecords">
+      <wsdl:input wsaw:Action="WCFService/IDBService/GetRecords" message="tns:IDBService_GetRecords_InputMessage" />
+      <wsdl:output wsaw:Action="WCFService/IDBService/GetRecordsResponse" message="tns:IDBService_GetRecords_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <wsdl:input wsaw:Action="WCFService/IDBService/AddPhoto" message="tns:IDBService_AddPhoto_InputMessage" />
+      <wsdl:output wsaw:Action="WCFService/IDBService/AddPhotoResponse" message="tns:IDBService_AddPhoto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveChanges">
+      <wsdl:input wsaw:Action="WCFService/IDBService/SaveChanges" message="tns:IDBService_SaveChanges_InputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

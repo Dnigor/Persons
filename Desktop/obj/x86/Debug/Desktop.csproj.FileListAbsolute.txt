@@ -1,0 +1,9 @@
+E:\softserve\Services\Persons\Desktop\bin\Debug\Desktop.exe
+E:\softserve\Services\Persons\Desktop\bin\Debug\Desktop.pdb
+E:\softserve\Services\Persons\Desktop\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\softserve\Services\Persons\Desktop\obj\x86\Debug\Desktop.Properties.Resources.resources
+E:\softserve\Services\Persons\Desktop\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\softserve\Services\Persons\Desktop\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\softserve\Services\Persons\Desktop\obj\x86\Debug\Desktop.exe
+E:\softserve\Services\Persons\Desktop\obj\x86\Debug\Desktop.pdb
+E:\softserve\Services\Persons\Desktop\obj\x86\Debug\Desktop.Form1.resources
